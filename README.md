@@ -6,7 +6,13 @@
 
 Un script de bienvenida inmersivo para **ESX Legacy**. Permite a los nuevos jugadores reclamar un bono inicial (dinero y vehículo) mediante una interacción con un NPC utilizando el sistema de "ojito".
 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4ebc2978-9aff-4162-8be8-63633312cd37" alt="Radio UI" width="45%">
+</p>
+
 ---
+
 
 ## ✨ Features | Características
 
@@ -36,6 +42,22 @@ Un script de bienvenida inmersivo para **ESX Legacy**. Permite a los nuevos juga
 | **oxmysql** | Database handler. | Gestor de base de datos. |
 | **ox_target** | Interaction system. | Sistema de interacción (ojito). |
 
+## 📜 License & Terms | Licencia y Términos
+
+| Condition | English | Español |
+| :--- | :--- | :--- |
+| 🚫 **Re-upload** | Do not re-upload: Licensed & registered. | No resubir: Script bajo licencia y registrado. |
+| 🔐 **Personal Use** | Free to use and edit for your server. | Libre de usar y editar para tu servidor. |
+| ⚙️ **Optimized** | High performance & clean code. | Alto rendimiento y código limpio. |
+
+---
+
+## 📢 Support | Soporte
+
+¿Buscas actualizaciones o nuevos scripts? ¡Únete a nuestra comunidad!
+
+[![Discord Shield](https://img.shields.io/badge/Discord-Join%20Us-7289da?style=for-the-badge&logo=discord)](https://discord.gg/2W9PMsYWTZ)
+
 ---
 
 ## 🛠️ Installation | Instalación
@@ -48,3 +70,4 @@ UPDATE users SET bono_reclamado = 0 WHERE identifier = 'TU_IDENTIFIER_AQUÍ';
 UPDATE users SET bono_reclamado = 0;
 ALTER TABLE `owned_vehicles` ADD COLUMN `parking` VARCHAR(60) DEFAULT 'Garage_Center';
 ALTER TABLE `owned_vehicles` ADD COLUMN `impound` TINYINT(1) DEFAULT 0;
+
